@@ -1,11 +1,8 @@
-body{
-    
-    background-color:rgb(226, 225, 212);
-    
+body{  
+    background-color:rgb(226, 225, 212);   
 }
 
-header{
-    
+header{  
     margin-bottom: 100px;
 }
 
@@ -19,15 +16,14 @@ header{
     font-size: 35px;
     font-display: initial;  
 }
+
 h1{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 33px;
-    
+    font-size: 33px;  
 }
 h2{
     font-family: 'Open Sans Condensed', sans-serif;
-    text-align: right;
-    
+    text-align: right;  
 }
 
 .container{
@@ -38,6 +34,7 @@ h2{
     margin-right:auto;
     margin-bottom: 60px;
 }
+
 .bannerprincipal {
     background-image: url(/img/drinkingcoffeeMobile.png);
     background-repeat: no-repeat;
