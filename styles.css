@@ -36,7 +36,7 @@ h2{
 }
 
 .bannerprincipal {
-    background-image: url(/img/drinkingcoffeeMobile.png);
+    background-image: url(img/drinkingcoffeeMobile.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:contain;
@@ -60,7 +60,7 @@ footer div {
 }
 
 .cafes{
-    background-image: url(/img/tazaMobile.png);
+    background-image: url(img/tazaMobile.png);
     background-repeat: no-repeat;
     text-align: center;
     -webkit-box-shadow: 4px 4px 10px rgb(0, 0, 0);
@@ -107,6 +107,6 @@ p{
   @media (min-width: 416px){
       
     .bannerprincipal{
-        background-image: url(/img/drinkingcoffee.png);
+        background-image: url(img/drinkingcoffee.png);
     }
   }
