@@ -1,0 +1,115 @@
+body{
+    
+    background-color:rgb(226, 225, 212);
+    
+}
+
+header{
+    
+    margin-bottom: 100px;
+}
+
+.navbar {
+    background-color: black;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 25px;   
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-display: initial;  
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 33px;
+    
+}
+h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: right;
+    
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 60px;
+}
+.bannerprincipal {
+    background-image: url(/img/drinkingcoffeeMobile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    height: 500px;
+    text-align: left;
+    
+}
+
+footer div {
+
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif ;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position:fixed;
+    bottom: 0;
+    width:100%;
+     
+    
+}
+
+.cafes{
+    background-image: url(/img/tazaMobile.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    border-radius: 1rem;
+    color: white;
+}
+.error{
+    color: red;
+    font-style: italic;
+}
+
+.registro{
+    font-family: 'Open Sans Condensed', sans-serif ;;
+}
+.formulario {
+    font-family: 'Open Sans Condensed', sans-serif ;;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif ;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+  @media (min-width: 416px){
+      
+    .bannerprincipal{
+        background-image: url(/img/drinkingcoffee.png);
+    }
+  }

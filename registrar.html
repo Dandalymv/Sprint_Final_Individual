@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html" title="TOMA CAFÉ"> <img src="img/logo.png" width="50px" alt=""> TOMA CAFÉ</a>    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" title="Inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca.html" title="Información sobre TOMA CAFÉ">Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html" title="Nuestros productos">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html" title="Ponte en contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registrar.html" title="Regístrate">Registrar</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+        <div class="registro">
+            <div class = "container">
+                <div class = "col-md-6 col-md-offset-3">
+                    <div class = "panel panel-primary">
+                        <div class = "panel-heading">
+                            <h2>Registrar</h2>
+                        </div>
+                        <div class = "panel-body">
+                            <form id = "registration">
+                                <input type = "text" class = "form-control" name = "username" id = "usuario" placeholder = "Nombre de usuario"/>
+                                <br/>
+                                <input type = "text" class = "form-control" name = "email" id = "correo" placeholder = "Correo"/>
+                                <br/>
+                                <input type = "password" class = "form-control" name = "password" id = "password" placeholder = "Password" id = "password"/>
+                                <br/>
+                                <input type = "password" class = "form-control" name = "confirm" id = "confirmar" placeholder = "Confirmar Password"/>
+                                <br/>
+                                <input type = "text" class = "form-control" name = "fname" id = "nombre" placeholder = "Nombre"/>
+                                <br/>
+                                <input type = "text" class = "form-control" name = "lname" id = "apellido" placeholder = "Apellido"/>                  
+                                <br/>
+                                <select class = "form-control" name = "country" id = "pais">
+                                    <option value="0" selected="" disabled="">--PAÍS--</option>
+                                    <option>Chile</option>
+                                    <option>Colombia</option>
+                                    <option>Venezuela</option>
+                                    <option>Argentina</option>
+                                    <option>Otro</option>
+                                </select>
+                                <br/>
+                                <textarea class = "form-control" name = "address" id = "direccion" placeholder="Dirección"></textarea>
+                                <br/>
+                                <button type = "submit" class = "btn btn-dark" href="index.html" onclick="hizoClick()" title="Registrar">Registrar</button>
+                                
+                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="text-center p-3" title="Ir a: Awakelab">
+                <a class="text-white" href="http://www.awakelab.cl" target="_blank">Sprint Final Módulo 1 - Dandaly Morales</a>
+            </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/register.js"></script>  
+</body>
+</html>
