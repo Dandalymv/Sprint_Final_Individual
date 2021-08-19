@@ -1,119 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="shortcut icon" href="img/logo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</head>
-<body> 
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a class="navbar-brand" href="index.html" title="TOMA CAFÉ"> <img src="img/logo.png" width="50px" alt=""> TOMA CAFÉ</a>    
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html" title="Inicio">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="acerca.html" title="Información sobre TOMA CAFÉ">Info</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="shop.html" title="Nuestros productos">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html" title="Ponte en contacto">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="registrar.html" title="Regístrate">Registrar</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-    </header>
- <div class="container"> 
-    <section class="mb-4">
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Ponte en contacto</h2>
-        <p class="text-center w-responsive mx-auto mb-5">¿Tienes preguntas? No dudes en contactarnos, nuestro equipo se pondrá en contacto contigo a la brevedad.</p>
-        <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="formulario" action="./index.html" name="contact-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input class="form-control" type="text" name="nombre" id="nombre">
-                                <label>Nombre</label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input class="form-control" type="email" name="correo" id="correo">
-                                <label>Correo</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input class="form-control" type="text" name="subject" id="asunto">
-                                <label>Asunto</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form">
-                                <textarea type="text" id="mensaje" name="message" rows="3" class="form-control md-textarea"></textarea>
-                                <label>Escribe tu mensaje</label>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="text-center text-md-left">
-                        <input class = "btn btn-dark" type="submit" value="Enviar" href="/index.html" title="Enviar">
-                    </div>
-                </form>
-
-
-                <div class="status"></div>
-            </div>
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>Avenida Providencia 123, Chile</p>
-                    </li>
-
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+ 56 9 98765421</p>
-                    </li>
-
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>contacto@tomacafe.cl</p>
-                    </li>
-                </ul>
-            </div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html" title="TOMA CAFÉ">
+          <img src="img/logo.png" width="50px" alt="" /> TOMA CAFÉ</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" title="Inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="acerca.html"
+                title="Información sobre TOMA CAFÉ"
+                >Info</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html" title="Nuestros productos"
+                >Shop</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html" title="Ponte en contacto"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrar.html" title="Regístrate"
+                >Registrar</a
+              >
+            </li>
+          </ul>
         </div>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="mb-4">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">
+          Ponte en contacto
+        </h2>
+        <p class="text-center w-responsive mx-auto mb-5">
+          ¿Tienes preguntas? No dudes en contactarnos, nuestro equipo se pondrá
+          en contacto contigo a la brevedad.
+        </p>
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="formulario" action="./index.html" name="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="nombre"
+                      id="nombre"
+                    />
+                    <label>Nombre</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      class="form-control"
+                      type="email"
+                      name="correo"
+                      id="correo"
+                    />
+                    <label>Correo</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="subject"
+                      id="asunto"
+                    />
+                    <label>Asunto</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="mensaje"
+                      name="message"
+                      rows="3"
+                      class="form-control md-textarea"
+                    ></textarea>
+                    <label>Escribe tu mensaje</label>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center text-md-left">
+                <input
+                  class="btn btn-dark"
+                  type="submit"
+                  value="Enviar"
+                  style="font-family: 'Open Sans Condensed', sans-serif ;""
+                  href="/index.html"
+                  title="Enviar"
+                />
+              </div>
+            </form>
 
-    </section>
-</div>
-<footer>
-    <div class="text-center p-3" title="Ir a: Awakelab">
-        <a class="text-white" href="http://www.awakelab.cl" target="_blank">Sprint Final Módulo 1 - Dandaly Morales</a>
+            <div class="status"></div>
+          </div>
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>Avenida Providencia 123, Chile</p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <p>+ 56 9 98765421</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p>contacto@tomacafe.cl</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
-</footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <footer>
+      <div class="text-center p-3" title="Ir a: Awakelab">
+        <a class="text-white" href="http://www.awakelab.cl" target="_blank"
+          >Sprint Final Módulo 1 - Dandaly Morales</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/contact.js"></script>
-</body>
+  </body>
 </html>

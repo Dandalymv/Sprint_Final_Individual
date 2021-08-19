@@ -83,6 +83,9 @@ p{
     font-size: 20px;
     text-align: justify;
 }
+label{
+    font-family: 'Open Sans Condensed', sans-serif ;
+}
 
 .social-link {
     width: 30px;
